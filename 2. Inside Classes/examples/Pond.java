@@ -21,7 +21,10 @@ public class Pond {
 		System.out.println(mobyDuck);
 		
 		// Exercise: Make the Duck quack
-		
+		mobyDuck.quack();
+		wolfgangDuck.quack();
+		System.out.println(mobyDuck);
+		System.out.println(wolfgangDuck);
 	}
 
 }

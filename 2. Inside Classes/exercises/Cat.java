@@ -34,11 +34,17 @@ public class Cat {
 		/* Do the following things without changing the Cat class */
 
 		// 1. Make the Cat meow
+		Cat noKiller = new Cat("fake cat");
 		
 		// 2. Get the Cat to print it's name
+		noKiller.printName();
 
 		// 3. Kill the Cat!
-
+		for (int i= 0; i < 9; i++) {
+			noKiller.kill();
+			
+		}
+		
 	}
 }
 
