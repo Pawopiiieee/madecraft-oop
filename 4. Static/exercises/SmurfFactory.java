@@ -10,7 +10,7 @@ public class SmurfFactory {
 		Smurf.createSmurf("papa");
 		Smurf.createSmurf("papa");
 		Smurf.createSmurf("papa");
-		
+		Smurf.createSmurf("smurffed");
 		Smurf luca = Smurf.createSmurf("luca");
 		luca.printName();
 		Smurf.createSmurf("boba");
@@ -18,6 +18,8 @@ public class SmurfFactory {
 		Smurf.createSmurf("boba");
 		Smurf.createSmurf("boba");
 		Smurf.createSmurf("boba");
+		Smurf.createSmurf("smurffed");
+		Smurf.createSmurf("smurffed");
 	}
 
 }

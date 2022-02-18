@@ -10,12 +10,17 @@ public class Smurf {
 
 
 	public static Smurf createSmurf(String name) {
-		
-		if (!listName.contains(name)) {
-			listName.add(name);
+		if (name =="papa" || name == "smurffed") {
+			if (!listName.contains(name)) {
+				listName.add(name);
+				System.out.println("Creating " + name + " Smurf");
+				return new Smurf(name);
+			}
+		} else {
 			System.out.println("Creating " + name + " Smurf");
 			return new Smurf(name);
 		}
+		
 		return null;
 		
 	}
